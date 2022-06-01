@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="nav">
+    <nav>
         <img src="assets/images/logo.png" alt="Four Balloons Site Logo">
         <!--Added an alt for site logo-->
         <ul>
@@ -15,14 +15,14 @@
                 <a href="index.html">Home Page</a>
             </li>
             <li>
-                <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Link 2</a>
+                <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">General Intro to Web Accessibility</a>
             </li>
             <li>
-                <a href="https://www.w3.org/TR/WCAG21/">Link 3</a>
+                <a href="https://www.w3.org/TR/WCAG21/">WCAG success criteria List</a>
             </li>
         </ul>
-    </div>
-    <div class="main">
+    </nav>
+    <main>
         <h1 class="text">WebFiesta: The Online Party Supply Superstore!!</h1>
         <!--Took out all flashing text because it was pointles and in violation of WCAG-->
         <h1 class="text">About Us</h1>
@@ -37,15 +37,15 @@
         <form>
             <h2>Contact Form</h2>
             <div>
-                Your First Name:
+                <label for="firstname">Your First Name:</label>
                 <input type="text" name="firstname" id="firstname">
             </div>
             <div>
-                Your Last Name:
+                <label for="lastname">Your Last Name:</label>
                 <input type="text" name="lastname" id="lastname">
             </div>
             <div>
-                Concern or Issue:
+                <lable for="concern">Concern or Issue:</lable>
                 <select name="concern" id="concern">
                     <option value="1">missing product</option>
                     <option value="2">billing issue</option>
@@ -91,6 +91,6 @@
             <!--Added an alt for the image of the logo shown-->
             <a href="https://creazilla.com/nodes/64384-colourful-balloons-clipart">Cute logo provided by ElisaRiva via Pixabay</a>
         </div>
-    </div>
+    </main>
 </body>
 </html>
